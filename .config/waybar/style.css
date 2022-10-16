@@ -1,0 +1,62 @@
+#waybar {
+	font-family: "Sofia Pro Bold";
+	border-radius: 6;
+	background-color: #1a1b26;
+	color: #c0caf5;
+	margin: 50px 50px;
+}
+
+#workspaces {
+	margin: 15 0;
+	border-radius: 150;
+	background-color: #24283b;
+}
+
+#workspaces .active {
+	background-color: #7aa2f7;
+}
+
+#workspaces button {
+	background-color: #e0af68;
+	margin: 15 20;
+	border-radius: 100;
+	padding: 0 5;
+}
+
+#workspaces button.focused {
+	background-color: #7aa2f7;
+}
+
+.modules-left {
+	margin-left: 30;
+}
+
+#custom-launcher {
+	color: #7aa2f7;
+	padding: 3;
+	font-size: 30;
+}
+
+#clock {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.modules-right {
+	margin-right: 30;
+}
+
+#custom-config {
+	font-family: "JetBrainsMono Nerd Font";
+	font-size: 30;
+	background-color: #24283b;
+	margin: 15 0;
+	border-radius: 150;
+}
+
+#custom-powermenu {
+	font-family: "JetBrainsMono Nerd Font";
+	color: #db4b4b;
+	font-size: 30;
+}
+
